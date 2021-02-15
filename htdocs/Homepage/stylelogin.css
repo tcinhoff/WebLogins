@@ -1,0 +1,44 @@
+body{
+  text-align: center;
+  background-image: url(bg.png);
+  background-repeat:no-repeat;
+  background-position: top;
+  background-color: black;
+  color: white;
+	text-shadow: 2px 1px black;
+}
+
+.login-box input[type="submit"], .submit{
+  margin-top: 10px;
+  margin-right: 58px;
+}
+
+.login-box{
+    width: 360px;
+    height: 460px;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+ /* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
